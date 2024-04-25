@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
 :root {
-    --cor-de-fundo: #67b9da;
-    --verde: #6FFF57;
+    --cor-de-fundo: #DC143C;
+    --salmao: #FA8072;
     --branco: #FFFFFF;
-    --botao-ativo: #3A375E;
+    --botao-ativo: #bd1d3d;
     --botao-inativo: rgba(58, 55, 94, 0.5);
     --texto-fundo: rgba(58, 55, 94, 0.3);
 }
@@ -27,15 +27,10 @@ body {
 }
 
 .titulo-principal {
-    text-align: left;
+    text-align: center;
     width: 100%;
     font-size: 32px;
 }
-
-.titulo-principal span {
-    color: var(--verde);
-}
-
 
 .botao {
     font-family: 'Chakra Petch', sans-serif;
@@ -107,7 +102,7 @@ body {
 }
 
 .contador-digito-texto{
-    color: var(--verde);
+    color: var(--salmao);
     font-size: 20px;
     margin: 0;
 
